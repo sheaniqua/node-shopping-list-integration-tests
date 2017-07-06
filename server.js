@@ -67,6 +67,5 @@ if (require.main === module) {
   runServer().catch(err => console.error(err));
 };
 
-//test comment to trigger CI
 
 module.exports = {app, runServer, closeServer};
