@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: ps8eCM2fkqopdoyv1nmlkreahyT04egiKxTCmoHeeJdnEIdYTeGpYVOWDdxV3WzeF9tXWVqZ/k1/taeQadoIMIcmP6v1AaDYiM/vEyxtALqtBYOXF5TAu7d2fWM1JfvJY8NZcn+LzBVJzMAxQ5t/+wFWzxbVcsehWdYwr9GMREU+UC3RHSdwCHKIJNmXaeV5qOI5k+EniwFxWq9Ox8lj2OojVicfiim498/atGErCjjQqUmt/TGKgYMssTKK7AlY6HjLMRShn37dfpaDnshy1USVwfUfb+5NRTzFIqq9nRzYI6HO9CdhXEqZXijPNL5rqr73xzVL8SHqBlKkESruMXjz/28/S4pKhlMCWbRBXdTAKVRZGGIb2b039KlmkK4DTeZZcm7B1yw/pAaBLh803hLaMTqYZKUE0MidsPyYtyFlGMTO51crO2c4GrTfmXLWO4M3Fk2tP4SU8RzsmuuJWI4E5wfc+EYuRXncVj/p7AJo1xORbq3XIoTQDN+isIdWMQ6+iQBHBag4Q48EB1Qrt+O1MTnstyoSOca/vQKkNnR8W7ZxfInSto8HvYcy1WXulRrL3B1f4XASbhBX5LbQkXD5H11nlbltX32DZB3yTkBywPLlj2oIwERovDWHNuLwiFZn2IJYfw7L5uFF2vXEDoOvt9N8bYrb8qJdCLGitas=
+  app: warm-brushlands-69021
+  on:
+    repo: sheaniqua/node-shopping-list-integration-tests
